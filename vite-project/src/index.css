@@ -1,0 +1,335 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color:  #f2f2f2 linear-gradient(to bottom, transparent 90%, rgba(0, 0, 0, 0.05) 90.1%);
+  background-image: linear-gradient(to bottom, transparent 90%, rgba(0, 0, 0, 0.05) 90.1%);
+  background-size: 100% 30px;
+  
+}
+
+body::before {
+  content: "";
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  background-color: rgba(0, 0, 0, 0.688);
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.info-icon{
+  height: 1em;
+  padding: 02em;
+  transition: filter 300ms;
+  border-radius: 50px;
+
+}
+
+
+
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.destacadoButton{
+  background-color: rgba(136, 136, 136, 0.579);
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 70%;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.412); 
+  margin-bottom: 10px;
+}
+
+.enviarButton{
+  background-color: rgba(136, 136, 136, 0.553);
+  padding: 10px;
+  border: none;
+  width: 109%;
+  cursor: pointer;
+  box-shadow: 0 2px 4px #17354133; 
+}
+
+.detail{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.backButton{
+  background-color: rgba(128, 128, 128, 0.116);
+  padding: 10px;
+  border: none;
+  width: 100px;
+  cursor: pointer;
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+h1{
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  background: linear-gradient(to bottom, #33adad47, rgb(144, 170, 177));
+  color: #202123;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+.themeButton {
+  width: 2rem;
+  height: 2rem;
+  order: 3;
+  border-radius: 20px;
+  background-color: darkgray; /* Modo oscuro */
+  transition: all 0.3s ease; /* Transición suave */
+}
+
+div nav div{
+ display: flex;
+ justify-content: space-around;
+ width: 50%;
+ order: 2;
+ 
+ 
+ 
+}
+
+ nav div a{
+  color: white;
+ }
+
+ nav a h1{
+  color: white;
+  position: initial;
+ }
+
+ nav h1 span{
+  color: #bcd169;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+  margin: 5px;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+.refers a:hover{
+  color: #4ac1d0;
+
+text-decoration:underline;
+transition: 0.25s ease;
+text-transform: capitalize
+} 
+
+.contact{
+  display: flex;
+  flex-direction: column;
+ justify-content: space-around;
+  align-items: center;
+  height: 200px;
+  padding: 20px;
+
+}
+
+
+form >label{
+  margin-top: 10px;
+}
+form > input{
+width: 300px;
+padding: 10px;
+margin-bottom: 20px ;
+border: solid #888686;
+border-radius: 5px;
+}
+
+.error{
+ color: red;
+ margin-top: 70px;
+ padding: 20px;
+ border-radius: 5px;
+ font-size: 20px;
+ background-color: rgb(206, 208, 209);
+ font-size: 20px;
+ width: 500px;
+ 
+}
+.alert{
+  margin-top: 70px;
+  padding: 20px;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(206, 208, 209);
+  font-size: 20px;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+footer .logo{
+    width: 200px;
+}
+
+footer .ico{
+  width: 28px;
+  
+}
+
+div.redesSociales{
+  display: flex;
+  justify-content:space-evenly;
+  align-items:stretch;
+  
+  width: 200px;
+  border-radius: 10px;
+ padding-left: 10px;
+padding-right: 10px;  
+
+
+
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.card{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  border: 0.5px  solid rgb(42, 218, 221);
+  border-radius: 30px;
+  font-size: 12px;
+}
+
+.card:hover{
+  border: 0.5px solid rgb(44, 47, 46);
+  transform:scale(0.9);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #8cb7a86f;
+}
+
+.card-grid{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  width: 90vw;
+  height: auto;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 2em;
+}
+.imgdoctor{
+  width: 60%;
+  border-radius: 100px;
+}
+
+
+table {
+ border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+    border: 1px solid #ccc;
+
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.dark{
+  background-color: #121417c9;
+  color: rgb(211, 203, 203);
+}
+.dark > nav> div> a {
+  color: rgb(0, 0, 0);
+}
+.dark > a {
+  color: white;
+}
+.dark nav{
+  background-color: rgba(71, 67, 67, 0.677);
+}
+.dark nav a h1{
+  color:#202123;
+ }
+ .dark .card{
+  color: white;
+ }
+.light nav{
+  background-color: #7b8599;
+}
+
+.dark .favButton{
+  background-color: whitesmoke ;
+}
+
+.footer {
+  background:  #000000e0;
+  color: whitesmoke;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.ico {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ico:hover {
+  transform: scale(1.2);
+  box-shadow: 0 2px 10px rgba(96, 232, 96, 0.3);
+}
+
