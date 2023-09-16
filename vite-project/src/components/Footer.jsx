@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="footer">
       <Link to={"https://www.digitalhouse.com/ar"}>
-        <img className="logo" src="../../public/images/DH.png" alt="DH-logo" />
+        <img className="logo" src="../src/assets/images/DH.png" alt="DH-logo" />
       </Link>
       <p>Alumno: Jimenez Esteban</p>
       <div className="redesSociales">
@@ -13,7 +13,7 @@ function Footer() {
           {" "}
           <img
             className="ico"
-            src="../../public/images/ico-instagram.png"
+            src="../src/assets/images/ico-instagram.png"
             alt="instagram-logo"
           />
         </Link>
@@ -21,7 +21,7 @@ function Footer() {
           {" "}
           <img
             className="ico"
-            src="../../public/images/ico-facebook.png"
+            src="../src/assets/images/ico-facebook.png"
             alt="facebook-logo"
           />
         </Link>
@@ -29,14 +29,14 @@ function Footer() {
           {" "}
           <img
             className="ico"
-            src="../../public/images/ico-whatsapp.png"
+            src="../src/assets/images/ico-whatsapp.png"
             alt="whatsapp-logo"
           />
         </Link>
         <Link to={"https://www.tiktok.com/@_digitalhouse"}>
           <img
             className="ico"
-            src="../../public/images/ico-tiktok.png"
+            src="../src/assets/images/ico-tiktok.png"
             alt="tiktok-logo"
           />
         </Link>
