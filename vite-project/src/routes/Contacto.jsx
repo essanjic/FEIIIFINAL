@@ -10,7 +10,7 @@ const Contacto = () => {
      <div className='contact'>
        <h1>¡Encuéntranos!</h1>
       <h2>¿Estás interesado en algo más?</h2>
-      <p>Envía tus consultas y te contactamos </p>
+      <p>Envía tus consultas y te contactaremos </p>
       <span></span>
     </div>
       <Form/>
